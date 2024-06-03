@@ -1,0 +1,19 @@
+{
+  "banks": [
+    {
+      "id": 1,
+      "code": "FOO",
+      "url": "http://example.com/foo"
+    },
+    {
+      "id": 2,
+      "code": "BAR",
+      "url": "http://example.com/bar"
+    },
+    {
+      "id": 3,
+      "code": "BAZ",
+      "url": "http://example.com/baz"
+    }
+  ]
+}

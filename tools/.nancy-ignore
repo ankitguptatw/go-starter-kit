@@ -1,0 +1,14 @@
+# github.com/hashicorp/consul/api@v1.13.0
+# github.com/hashicorp/consul/sdk@@v0.11.0
+CVE-2022-29153
+CVE-2022-24687
+CVE-2021-41803
+
+# github.com/jackc/pgproto3
+sonatype-2021-0853
+
+# github.com/go-ldap/ldap/v3
+sonatype-2020-1055 
+
+# golang/github.com/hashicorp/vault/api@v1.7.72 / latest version still not avaiable
+CVE-2022-36129

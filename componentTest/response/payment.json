@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "amount": 100,
+  "beneficiary": {
+    "Code": "HDFC1234",
+    "accountNumber": 67890,
+    "name": "May"
+  },
+  "payee": {
+    "Code": "HDFC1234",
+    "accountNumber": 12345,
+    "name": "Ethan"
+  }
+}

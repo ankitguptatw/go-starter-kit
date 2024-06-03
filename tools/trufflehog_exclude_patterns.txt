@@ -1,0 +1,4 @@
+.*\.talismanrc
+.*\.md
+.*\.sum
+.*\.mod

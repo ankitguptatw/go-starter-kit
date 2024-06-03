@@ -1,0 +1,33 @@
+App:
+  Host: localhost
+  Port: 8888
+  ReadTimeout: 5
+  WriteTimeout: 5
+  GineMode: debug
+
+ServiceProviders:
+  BankProvider:
+    BaseUrl: http://localhost:9001
+  FraudProvider:
+    BaseUrl: http://localhost:9002
+
+Logger:
+  Level: INFO
+
+Database:
+  Host: localhost
+  Port: 5432
+  Name: payment_db
+  User: payment_user
+  MigrationPath: persistence/migrations/scripts
+  Password: 1234567890
+
+Telemetry:
+  ServiceName: service-golang-starter
+  CollectorEndpoint: http://localhost:14268/api/traces
+
+Vault:
+  Enabled: false
+
+Consul:
+  Enabled: false

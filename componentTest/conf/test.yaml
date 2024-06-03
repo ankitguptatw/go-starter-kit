@@ -1,0 +1,25 @@
+App:
+  Host: localhost
+  Port: 8888
+  ReadTimeout: 5
+  WriteTimeout: 5
+  GineMode: debug
+  CorsConfig:
+    - "*"
+
+ServiceProviders:
+  BankProvider:
+    BaseUrl: http://localhost:9001
+  FraudProvider:
+    BaseUrl: http://localhost:9002
+
+Logger:
+  Level: INFO
+
+Database:
+  Host: localhost
+  Port: 5432
+  Name: payment_db_go_test
+  User: paymentuser-test
+  MigrationPath: ../persistence/migrations/scripts
+  Password: password
